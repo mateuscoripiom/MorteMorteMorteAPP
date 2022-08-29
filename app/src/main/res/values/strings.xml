@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MorteMorteMorte</string>
+    <string name="btncinema">Cinemas Próximos</string>
+    <string name="txtslogan">ESTE NÃO É UM LUGAR SEGURO. \n 6 DE OUTUBRO NOS CINEMAS.</string>
+    <string name="swtreveal">Aperte para revelar</string>
+    <string name="txtreveal">TODOS TEM UM MOTIVO</string>
+    <string name="txtinicio">INÍCIO</string>
+    <string name="txtmenu">MENU</string>
+    <string name="btninicio">INÍCIO</string>
+    <string name="btnconheca">CONHEÇA O FILME</string>
+    <string name="btnpersonagens">PERSONAGENS</string>
+    <string name="btnsorteio">SORTEIO</string>
+    <string name="btnjogo">JOGO</string>
+    <string name="btncreditos">CRÉDITOS</string>
+    <string name="txtconheca">CONHEÇA O FILME</string>
+    <string name="txtnomefilme">MORTE MORTE MORTE \n (BODIES, BODIES, BODIES)</string>
+    <string name="radioposter1">POSTER 1</string>
+    <string name="radioposter2">POSTER 2</string>
+    <string name="sinopse">Quando um grupo de ricos de vinte e poucos anos planeja uma festança em uma mansão remota, uma grande nevasca os deixa preso dentro da casa e eles começam uma jogatina de Morte Morte Morte, um jogo onde se deve descobrir quem é o assassino, mas corpos reais começam a aparecer e somente um deles pode ser o responsável.</string>
+    <string name="todos1">TODOS TEM UM MOTIVO</string>
+    <string name="todos2">TODOS TEM UM MOTIVO</string>
+    <string name="todos3">TODOS TEM UM MOTIVO</string>
+    <string name="btntrailer">ASSISTA AO TRAILER</string>
+    <string name="chNavegador">Escolha</string>
+    <string name="personagens">PERSONAGENS</string>
+    <string name="descpersonagens">Prontos para conhecer os nossos potenciais assassinos?</string>
+</resources>
