@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/drawable/button_morte.xml" value="0.219" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/drawable/dialog_background.xml" value="0.219" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/layout/activity_assassino.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/layout/activity_jogador.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/layout/activity_jogo.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/layout/activity_morri.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/2etimds/Desktop/N&amp;M/Android/CalculadoraIMC/MorteMorteMorteAPP/app/src/main/res/layout/morte_layout.xml" value="0.1" />
         <entry key="..\:/Users/2etimds/Downloads/MorteMorteMorteAPP-main/app/src/main/res/layout/activity_assassino.xml" value="0.358695652173913" />
         <entry key="..\:/Users/2etimds/Downloads/MorteMorteMorteAPP-main/app/src/main/res/layout/activity_jogador.xml" value="0.358695652173913" />
         <entry key="..\:/Users/2etimds/Downloads/MorteMorteMorteAPP-main/app/src/main/res/layout/activity_jogo.xml" value="0.358695652173913" />

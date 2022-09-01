@@ -35,4 +35,7 @@
     <string name="tempolanterna">TEMPO LANTERNA:</string>
     <string name="btnencontrei">ENCONTREI CORPO</string>
     <string name="btnmorri">MORRI :(</string>
+    <string name="morreu">MORREU</string>
+    <string name="quepena">Que pena! Parece que infelizmente você foi assassinado. O jogo acabou para você.</string>
+    <string name="sairjogo">SAIR</string>
 </resources>
