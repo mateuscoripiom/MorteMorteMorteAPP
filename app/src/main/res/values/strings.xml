@@ -24,4 +24,15 @@
     <string name="chNavegador">Escolha</string>
     <string name="personagens">PERSONAGENS</string>
     <string name="descpersonagens">Prontos para conhecer os nossos potenciais assassinos?</string>
+    <string name="jogo">JOGO</string>
+    <string name="escolha">VOCÊ É...?</string>
+    <string name="assassino">ASSASSINO</string>
+    <string name="jogador">JOGADOR</string>
+    <string name="cntcorpos">CONTAGEM DE CORPOS:</string>
+    <string name="btnmatei">MATEI</string>
+    <string name="btnlanterna">LANTERNA</string>
+    <string name="btndescoberto">FUI DESCOBERTO!</string>
+    <string name="tempolanterna">TEMPO LANTERNA:</string>
+    <string name="btnencontrei">ENCONTREI CORPO</string>
+    <string name="btnmorri">MORRI :(</string>
 </resources>
