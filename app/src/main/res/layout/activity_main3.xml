@@ -45,13 +45,12 @@
             android:layout_width="250dp"
             android:layout_height="371dp"
             android:layout_marginTop="50dp"
-            android:background="@drawable/round_outline"
             android:clipToOutline="true"
             app:cornerRadius="350dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:srcCompat="@drawable/posterptbr" />
+            app:srcCompat="@drawable/poster1" />
 
         <TextView
             android:id="@+id/textView"
@@ -161,7 +160,7 @@
             android:scaleType="centerInside"
             android:visibility="visible"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
-            app:srcCompat="@drawable/zmpvhqq8hcwwd1mujpziept92gw"
+            app:srcCompat="@drawable/screen1"
             tools:layout_editor_absoluteX="0dp" />
 
         <ImageView
@@ -170,12 +169,11 @@
             android:layout_height="214dp"
             android:layout_marginTop="25dp"
             android:adjustViewBounds="false"
-            android:background="@drawable/round_outline"
             android:cropToPadding="false"
             android:scaleType="centerInside"
             android:visibility="visible"
             app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:srcCompat="@drawable/buv0fkzzxj4fwyyquykwqpaukyx"
+            app:srcCompat="@drawable/screen2"
             tools:layout_editor_absoluteX="0dp" />
 
         <ImageView
@@ -184,12 +182,11 @@
             android:layout_height="214dp"
             android:layout_marginTop="25dp"
             android:adjustViewBounds="false"
-            android:background="@drawable/round_outline"
             android:cropToPadding="false"
             android:scaleType="centerInside"
             android:visibility="visible"
             app:layout_constraintTop_toBottomOf="@+id/imageView9"
-            app:srcCompat="@drawable/_zz901pxop7wvrme4osqlqzcadv"
+            app:srcCompat="@drawable/screen3"
             tools:layout_editor_absoluteX="0dp" />
 
         <ImageView
@@ -199,14 +196,13 @@
             android:layout_marginTop="25dp"
             android:layout_marginBottom="30dp"
             android:adjustViewBounds="false"
-            android:background="@drawable/round_outline"
             android:cropToPadding="false"
             android:scaleType="centerInside"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView10"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/ub6ogpi6n9mabpqsv8ul0hfosyj"
+            app:srcCompat="@drawable/screen4"
             tools:layout_editor_absoluteX="0dp" />
 
         <ImageView

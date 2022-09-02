@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20201e"
+    android:scrollbarStyle="outsideOverlay"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#20201e"
+        tools:context=".RegrasActivity">
+
+        <Button
+            android:id="@+id/btnpularregras"
+            android:layout_width="284dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#751DB3"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/btnconhecoregras"
+            android:textSize="16sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPersonagens4" />
+
+        <TextView
+            android:id="@+id/btnPersonagens4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="50dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/regras"
+            android:textColor="#A432EA"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnmenuinicio6"
+            android:layout_width="62dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#00FFFFFF"
+            app:cornerRadius="100dp"
+            app:icon="@android:drawable/ic_menu_sort_by_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="373dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/regras1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnpularregras" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="373dp"
+            android:layout_height="277dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/regras3"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="373dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/regras2"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="368dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="#907C7C7C"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="332dp"
+                    android:layout_height="456dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/regras4"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="218dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="#0EAEBC"
+            android:clickable="false"
+            android:elevation="1dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/regrasjogadores"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="218dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#751DB3"
+            android:clickable="false"
+            android:elevation="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/regrasasssassinos"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="368dp"
+            android:layout_height="439dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="#907C7C7C"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="330dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/regras5"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="373dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/regras6"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+        <Button
+            android:id="@+id/btniniciarjogo"
+            android:layout_width="284dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#751DB3"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/iniciarjogo"
+            android:textSize="16sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

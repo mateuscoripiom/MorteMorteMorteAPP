@@ -22,12 +22,11 @@
         app:layout_constraintTop_toBottomOf="@+id/btnmorri" />
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/txtTempoLanterna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="TextView"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
     <Button
-        android:id="@+id/btnassassino12"
+        android:id="@+id/btnlanternajogador"
         android:layout_width="284dp"
         android:layout_height="68dp"
         android:layout_marginStart="50dp"
@@ -79,7 +78,7 @@
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnassassino12" />
+        app:layout_constraintTop_toBottomOf="@+id/btnlanternajogador" />
 
     <TextView
         android:id="@+id/textView26"
@@ -122,16 +121,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnmenuinicio7"
-        android:layout_width="62dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:background="#00FFFFFF"
-        app:cornerRadius="100dp"
-        app:icon="@android:drawable/ic_menu_sort_by_size"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

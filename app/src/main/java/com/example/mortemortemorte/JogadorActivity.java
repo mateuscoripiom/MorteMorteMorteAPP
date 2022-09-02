@@ -2,12 +2,27 @@ package com.example.mortemortemorte;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraManager;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class JogadorActivity extends AppCompatActivity {
+
+    private Button btnlanternajogador;
+
+    boolean hasCameraFlash = false;
+    boolean flashOn = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,5 +36,55 @@ public class JogadorActivity extends AppCompatActivity {
                 startActivity(new Intent(JogadorActivity.this, MorriActivity.class));
             }
         });
+
+        btnlanternajogador = findViewById(R.id.btnlanternajogador);
+        hasCameraFlash = getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+        long start = System.currentTimeMillis();
+        long end = start + 20 * 1000;
+
+        btnlanternajogador.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                    if(hasCameraFlash){
+                        if(flashOn){
+                            flashOn = false;
+                            flashLightOff();
+                        }
+                        else while (System.currentTimeMillis() < end){
+                                flashOn = true;
+                                flashLightOn();
+                        }
+                    }
+                    else{
+                        Toast.makeText(JogadorActivity.this, "Lanterna não disponível", Toast.LENGTH_LONG).show();
+                    }
+                    btnlanternajogador.setClickable(false);
+                    flashLightOff();
+                }
+        });
+
+    }
+    private void flashLightOn(){
+        CameraManager cameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
+        try{
+            assert cameraManager != null;
+            String cameraId = cameraManager.getCameraIdList()[0];
+            cameraManager.setTorchMode(cameraId, true);
+        }
+        catch(CameraAccessException e){
+            Log.e("Problema na câmera", "Não é possível ligar a lanterna");
+        }
+    }
+
+    private void flashLightOff(){
+        CameraManager cameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
+        try{
+            assert cameraManager != null;
+            String cameraId = cameraManager.getCameraIdList()[0];
+            cameraManager.setTorchMode(cameraId, false);
+        }
+        catch(CameraAccessException e){
+            Log.e("Problema na câmera", "Não é possível ligar a lanterna");
+        }
     }
 }

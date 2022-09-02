@@ -40,10 +40,10 @@ public class ConhecaActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup RGposter, int checkedId) {
                 if(checkedId == R.id.RBposter2){
-                    poster.setImageDrawable(getDrawable(R.drawable.posterptbr));
+                    poster.setImageDrawable(getDrawable(R.drawable.poster1));
                 }
                 else if(checkedId == R.id.RBposter1){
-                    poster.setImageDrawable(getDrawable(R.drawable.bodies_bodies_bodies_scaledptbr));
+                    poster.setImageDrawable(getDrawable(R.drawable.poster2));
                 }
             }
         });

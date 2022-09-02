@@ -44,9 +44,9 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="332dp"
-            android:layout_height="124dp"
-            android:layout_marginTop="45dp"
+            android:layout_width="329dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="36dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/descpersonagens"
             android:textAlignment="center"
@@ -55,5 +55,486 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnPersonagens" />
+
+        <ImageView
+            android:id="@+id/imgSophie"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:srcCompat="@drawable/sophie" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="359dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtSophie"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#00c8d2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/sophie"
+                    android:textAlignment="center"
+                    android:textColor="#00c8d2"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtSophieDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/SophieDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtSophie" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imgBee"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            app:srcCompat="@drawable/bee" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewBee"
+            android:layout_width="359dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtBee"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#c163da"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/Bee"
+                    android:textAlignment="center"
+                    android:textColor="#c163da"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtBeeDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/BeeDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtBee" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imgJordan"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewBee"
+            app:srcCompat="@drawable/jordan" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewJordan"
+            android:layout_width="359dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewBee">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtJordan"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#1fd240"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/Jordan"
+                    android:textAlignment="center"
+                    android:textColor="#1fd240"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtJordanDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/JordanDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtJordan" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imgAlice"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewJordan"
+            app:srcCompat="@drawable/alice" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewAlice"
+            android:layout_width="359dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewJordan">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtAlice"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#00c8d2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/Alice"
+                    android:textAlignment="center"
+                    android:textColor="#00c8d2"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtAliceDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/AliceDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAlice" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imgGreg"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewAlice"
+            app:srcCompat="@drawable/greg" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewGreg"
+            android:layout_width="359dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewAlice">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtGreg"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#c163da"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/Greg"
+                    android:textAlignment="center"
+                    android:textColor="#c163da"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtGregDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/GregDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtGreg" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imgDavid"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewGreg"
+            app:srcCompat="@drawable/david" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewDavid"
+            android:layout_width="359dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewGreg">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtDavid"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#1fd240"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/David"
+                    android:textAlignment="center"
+                    android:textColor="#1fd240"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtDavidDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/DavidDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDavid" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imgEmma"
+            android:layout_width="151dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewDavid"
+            app:srcCompat="@drawable/emma" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewEmma"
+            android:layout_width="359dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#6D4E4E4C"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewDavid">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PersonagensActivity">
+
+                <TextView
+                    android:id="@+id/txtEmma"
+                    android:layout_width="231dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/sequel_sans_semi_bold_body"
+                    android:shadowColor="#00c8d2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:text="@string/Emma"
+                    android:textAlignment="center"
+                    android:textColor="#00c8d2"
+                    android:textSize="24sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtEmmaDesc"
+                    android:layout_width="316dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/EmmaDesc"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtEmma" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="397dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/Email"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewEmma" />
+
+        <Button
+            android:id="@+id/btnemail"
+            android:layout_width="284dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#1fd240"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/btnEmail"
+            android:textSize="20sp"
+            app:cornerRadius="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
