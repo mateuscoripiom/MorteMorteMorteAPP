@@ -65,4 +65,17 @@
     <string name="regras5">A tela de assassinos também tem três botões: \n \n Matei - Caso você mate alguém, deve clicar nesse botão, ele irá marcar sua quantidade de mortes, podendo o levar a sua vitória. \n \n Lanterna - A lanterna serve para você se desfarçar entre os jogadores comuns. Lembre-se, você só pode usar ela por 20seg. \n \n Fui descoberto - Caso uma das reuniões aponte para você, o seu jogo acabou. Você deve clicar o botão e a vitória será dos jogadores comuns.</string>
     <string name="regras6">O assassino pode, e deve, se misturar entre o jogadores e fingir ser um deles. Nas reuniões ele deve mentir e tentar desviar da mira de ser o acusado. \n \n Seu celular é o objeto principal do jogo, ele pode denunciar se você é o assassino. Então não deixe os outros olharem para sua tela.</string>
     <string name="iniciarjogo">INICIAR JOGO</string>
+    <string name="corpos">0 corpos encontrados</string>
+    <string name="perdeu">PERDEDOR</string>
+    <string name="descperdeu">Parece que o assassino conseguiu pegar todo mundo e você perdeu. Boa sorte na próxima vez.</string>
+    <string name="descoberto">FOI DESCOBERTO</string>
+    <string name="descdescoberto">Parece que você não foi um bom assassino e foi descoberto pelos jogadores. Boa sorte na próxima.</string>
+    <string name="corposa">0 mortos</string>
+    <string name="cntmortes">CONTAGEM DE MORTES:</string>
+    <string name="ganhou">GANHOU</string>
+    <string name="descganhou">Parabéns! Você conseguiu matar todos os jogadores e foi um assassino competente.</string>
+    <string name="sorteio">SORTEIO</string>
+    <string name="descsorteio">No sorteio você deve digitar abaixo a quantidade de jogadores presentes e ir passando o celular para cada um deles. Eles irão clicar no botão de sortear para saber se são o assassino ou um jogador. \n \n É extremamente importante não deixar nenhum outro jogar ver a sua tela enquanto estiver sorteando.</string>
+    <string name="digitejogadores">DIGITE A QUANTIDADE DE JOGADORES</string>
+    <string name="btnsortear">SORTEAR</string>
 </resources>

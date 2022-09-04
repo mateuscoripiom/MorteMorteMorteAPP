@@ -20,14 +20,19 @@ import org.w3c.dom.Text;
 public class JogadorActivity extends AppCompatActivity {
 
     private Button btnlanternajogador;
+    private Button btnecontrei;
+    private TextView txtTempoLanterna;
 
     boolean hasCameraFlash = false;
     boolean flashOn = false;
+    int Corpo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jogador);
+
+        txtTempoLanterna = findViewById(R.id.txtTempoLanterna);
 
         Button btnmorri = (Button)findViewById(R.id.btnmorri);
         btnmorri.setOnClickListener(new View.OnClickListener(){
@@ -38,6 +43,7 @@ public class JogadorActivity extends AppCompatActivity {
         });
 
         btnlanternajogador = findViewById(R.id.btnlanternajogador);
+        btnecontrei = findViewById(R.id.btnecontrei);
         hasCameraFlash = getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
         long start = System.currentTimeMillis();
         long end = start + 20 * 1000;
@@ -60,7 +66,24 @@ public class JogadorActivity extends AppCompatActivity {
                     }
                     btnlanternajogador.setClickable(false);
                     flashLightOff();
+                    txtTempoLanterna.setText("Tempo de lanterna esgotado");
                 }
+
+        });
+
+        btnecontrei.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                TextView txtCorpo = findViewById(R.id.txtCorpo);
+                    Corpo++;
+                    txtCorpo.setText(Integer.toString(Corpo) + " corpos encontrados");
+
+                    if(Corpo >= 10){
+                        startActivity(new Intent(JogadorActivity.this, PerdeuActivity.class));
+                    }
+                    else{
+                    }
+            }
         });
 
     }
@@ -87,4 +110,5 @@ public class JogadorActivity extends AppCompatActivity {
             Log.e("Problema na câmera", "Não é possível ligar a lanterna");
         }
     }
+
 }

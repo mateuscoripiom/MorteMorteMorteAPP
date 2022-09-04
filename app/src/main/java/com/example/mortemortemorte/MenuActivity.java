@@ -45,5 +45,13 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(MenuActivity.this, RegrasActivity.class));
             }
         });
+
+        Button btnsorteio = (Button)findViewById(R.id.btnsorteio);
+        btnsorteio.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MenuActivity.this, SorteioActivity.class));
+            }
+        });
     }
 }

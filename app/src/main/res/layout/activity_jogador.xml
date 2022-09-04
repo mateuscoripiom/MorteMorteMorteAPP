@@ -8,12 +8,11 @@
     tools:context=".JogadorActivity">
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/txtTempoLanterna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/tempolanterna"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
@@ -21,19 +20,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnmorri" />
 
-    <TextView
-        android:id="@+id/txtTempoLanterna"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:fontFamily="@font/poppins_semibold"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
-
     <Button
-        android:id="@+id/btnassassino11"
+        android:id="@+id/btnecontrei"
         android:layout_width="284dp"
         android:layout_height="68dp"
         android:layout_marginStart="50dp"
@@ -46,7 +34,7 @@
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+        app:layout_constraintTop_toBottomOf="@+id/txtCorpo" />
 
     <Button
         android:id="@+id/btnlanternajogador"
@@ -62,7 +50,7 @@
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnassassino11" />
+        app:layout_constraintTop_toBottomOf="@+id/btnecontrei" />
 
     <Button
         android:id="@+id/btnmorri"
@@ -95,12 +83,12 @@
         app:layout_constraintTop_toBottomOf="@+id/btnPersonagens6" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/txtCorpo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="TextView"
+        android:text="@string/corpos"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

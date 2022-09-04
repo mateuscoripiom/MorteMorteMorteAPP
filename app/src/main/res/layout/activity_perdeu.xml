@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#20201e"
-    tools:context=".MorriActivity">
+    tools:context=".PerdeuActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button4"
         android:layout_width="216dp"
         android:layout_height="65dp"
         android:layout_marginTop="250dp"
         android:backgroundTint="#0EAEBC"
         android:clickable="false"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/morreu"
+        android:text="@string/perdeu"
         android:textSize="20sp"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +63,7 @@
                 android:layout_height="78dp"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="@string/quepena"
+                android:text="@string/descperdeu"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="17sp"
