@@ -1,9 +1,14 @@
 package com.example.mortemortemorte;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.app.SearchManager;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,8 +16,15 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnSuccessListener;
 
 public class InicialActivity extends AppCompatActivity {
+
+    FusedLocationProviderClient fusedLocationClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +39,7 @@ public class InicialActivity extends AppCompatActivity {
         Button btncinema = findViewById(R.id.btncinema);
         ImageView imageView = findViewById(R.id.imageView);
         TextView textView9 = findViewById(R.id.textView9);
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
         swtreveal.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -69,6 +82,33 @@ public class InicialActivity extends AppCompatActivity {
             }
         });
 
+        getLocation();
+    }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if(requestCode == 10){
+            if(grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                getLocation();
+            }
+            else{
+                {
+                    Toast.makeText(InicialActivity.this, "Permissão de localização negada.",Toast.LENGTH_SHORT).show();
+                }
+            }
+        }
+    }
+
+    public void getLocation(){
+        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){
+        }
+        else{
+            requestPermission();
+        }
+    }
+    private void requestPermission(){
+        ActivityCompat.requestPermissions(this,
+                new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 10);
     }
 }

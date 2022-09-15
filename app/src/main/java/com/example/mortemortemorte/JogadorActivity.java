@@ -12,6 +12,7 @@ import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -75,10 +76,12 @@ public class JogadorActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 TextView txtCorpo = findViewById(R.id.txtCorpo);
+                EditText editJogadores = findViewById(R.id.editJogadores);
+                int jog = Integer.parseInt(editJogadores.getText().toString());
                     Corpo++;
                     txtCorpo.setText(Integer.toString(Corpo) + " corpos encontrados");
 
-                    if(Corpo >= 10){
+                    if(Corpo >= jog){
                         startActivity(new Intent(JogadorActivity.this, PerdeuActivity.class));
                     }
                     else{

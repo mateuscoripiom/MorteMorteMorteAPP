@@ -528,6 +528,7 @@
             android:layout_marginBottom="30dp"
             android:backgroundTint="#1fd240"
             android:fontFamily="@font/poppins_semibold"
+            android:onClick="envioMail"
             android:text="@string/btnEmail"
             android:textSize="20sp"
             app:cornerRadius="25dp"
