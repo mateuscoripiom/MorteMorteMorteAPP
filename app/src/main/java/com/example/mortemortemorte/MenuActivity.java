@@ -53,5 +53,13 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(MenuActivity.this, SorteioActivity.class));
             }
         });
+
+        Button btncreditos = (Button)findViewById(R.id.btncreditos);
+        btncreditos.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MenuActivity.this, CreditosActivity.class));
+            }
+        });
     }
 }

@@ -146,7 +146,7 @@
             android:scaleType="centerInside"
             android:visibility="visible"
             app:layout_constraintTop_toBottomOf="@+id/imageView5"
-            app:srcCompat="@drawable/fzd0dovxwae7yc3"
+            app:srcCompat="@drawable/_111"
             tools:layout_editor_absoluteX="0dp" />
 
         <ImageView

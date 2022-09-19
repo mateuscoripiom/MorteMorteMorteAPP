@@ -78,4 +78,23 @@
     <string name="descsorteio">No sorteio você deve digitar abaixo a quantidade de jogadores presentes e ir passando o celular para cada um deles. Eles irão clicar no botão de sortear para saber se são o assassino ou um jogador. \n \n É extremamente importante não deixar nenhum outro jogar ver a sua tela enquanto estiver sorteando.</string>
     <string name="digitejogadores">DIGITE A QUANTIDADE DE JOGADORES</string>
     <string name="btnsortear">SORTEAR</string>
+    <string name="creditos">CRÉDITOS</string>
+    <string name="diretora">A DIRETORA</string>
+    <string name="nomdiretora">Halina Reijn</string>
+    <string name="descdir">Halina Reijn é uma atriz, \n escritora e diretora de \n cinema holandesa. \n Já ganhou diversos prêmios, \n e em 2021 ganhou a oportunidade pela \n A24 de adaptar seu roteiro original de Bodies Bodies Bodies para o cinema.</string>
+    <string name="insta">Instagram</string>
+    <string name="imdb">IMDb</string>
+    <string name="estudio">O ESTÚDIO</string>
+    <string name="descestudio">A A24 é um estúdio de produções indies. Já é mundialmente conhecido pelos seus sucessos, como: X, Hereditário, Midsommar, O Farol, e o mais recente, Tudo em Todo Lugar ao Mesmo Tempo.</string>
+    <string name="atores">AS ATRIZES</string>
+    <string name="amandla">Amandla\nStenberg</string>
+    <string name="maria">Maria\nBakalova</string>
+    <string name="rachel">Rachel\nSennott</string>
+    <string name="myhala">Myhala\nHerrold</string>
+    <string name="chase">Chase Sui\nWonders</string>
+    <string name="equipe">LOCAL DE GRAVAÇÃO</string>
+    <string name="desclocal">O elenco e equipe utilizaram para as gravações uma mansão avaliada em quase 7 milhões de dólares localizada no estado de Nova York, Estados Unidos.</string>
+    <string name="local">ACESSAR A LOCALIZAÇÃO</string>
+    <string name="desenv">DESENVOLVEDORES</string>
+    <string name="desenvdesc">Este aplicativo foi desenvolvido pelos alunos Luan Hidemi e Mateus Coripio do 2 DESENVOLVIMENTO DE SISTEMAS ETIM, da escola ETEC Prof. Basilides de Godoy, para o trabalho da professora Aline Firmino Brito.</string>
 </resources>
