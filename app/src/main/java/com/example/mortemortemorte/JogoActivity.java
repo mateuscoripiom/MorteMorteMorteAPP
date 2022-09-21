@@ -19,6 +19,7 @@ public class JogoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(JogoActivity.this, AssassinoActivity.class));
+                finish();
             }
         });
         Button btnjogador = (Button)findViewById(R.id.btnjogador);
@@ -26,6 +27,7 @@ public class JogoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(JogoActivity.this, JogadorActivity.class));
+                finish();
             }
         });
         Button btnmenuinicio4 = (Button)findViewById(R.id.btnmenuinicio4);

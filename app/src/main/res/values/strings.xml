@@ -46,7 +46,7 @@
     <string name="jogador">JOGADOR</string>
     <string name="cntcorpos">CONTAGEM DE CORPOS:</string>
     <string name="btnmatei">MATEI</string>
-    <string name="btnlanterna">LANTERNA</string>
+    <string name="btnlanterna">LANTERNA DES.</string>
     <string name="btndescoberto">FUI DESCOBERTO!</string>
     <string name="tempolanterna">TEMPO LANTERNA:</string>
     <string name="btnencontrei">ENCONTREI CORPO</string>
@@ -60,9 +60,9 @@
     <string name="regras2">Após realizar o sorteio, você já pode iniciar o jogo. Lembre-se de selecionar se você é o assassino ou jogador.</string>
     <string name="regras3">Na brincadeira, para o assassino te matar, ele deve encostar nas suas costas. Se você morrer, deve ficar sentado no chão até alguém encontrar o seu corpo. Quando seu corpo for encontrado, uma reunião de jogadores será acionada e eles devem discutir entre si quem acham que é o assassino. Na reunião, alguém deve ser denomidado suposto assassino e expulso do jogo. Se a pessoa apontada não for o assassino, o jogo continua normalmente sem quem morreu ou foi acusado.</string>
     <string name="regrasjogadores">PARA OS JOGADORES</string>
-    <string name="regras4">A tela de jogadores tem três botões: \n \n Corpo - Caso um corpo seja encontrado, você deve clicar nesse botão. Ele vai contabilizar a quantidade de corpos que já foram descobertos, te mantendo atento no jogo para saber se o assassino está próximo de ganhar. \n \n Lanterna - A lanterna serve para se proteger do assassino. Se estiver com ela ligada, o assassino não poderá te matar. Fique atento, você só pode usá-la uma única vez por somente 20 segundos. \n \n Eliminado - Caso você seja assassinado ou julgado como suposto assassino, deve clicar nesse botão. Infelizmente o jogo acabará para você.</string>
+    <string name="regras4">A tela de jogadores tem três botões: \n \n Corpo - Caso um corpo seja encontrado, você deve clicar nesse botão. Ele vai contabilizar a quantidade de corpos que já foram descobertos, te mantendo atento no jogo para saber se o assassino está próximo de ganhar. \n \n Lanterna - A lanterna serve para se proteger do assassino. Se estiver com ela ligada, o assassino não poderá te matar. Fique atento, você só pode usá-la uma única vez. \n \n Eliminado - Caso você seja assassinado ou julgado como suposto assassino, deve clicar nesse botão. Infelizmente o jogo acabará para você.</string>
     <string name="regrasasssassinos">PARA OS ASSASSINOS</string>
-    <string name="regras5">A tela de assassinos também tem três botões: \n \n Matei - Caso você mate alguém, deve clicar nesse botão, ele irá marcar sua quantidade de mortes, podendo o levar a sua vitória. \n \n Lanterna - A lanterna serve para você se desfarçar entre os jogadores comuns. Lembre-se, você só pode usar ela por 20seg. \n \n Fui descoberto - Caso uma das reuniões aponte para você, o seu jogo acabou. Você deve clicar o botão e a vitória será dos jogadores comuns.</string>
+    <string name="regras5">A tela de assassinos também tem três botões: \n \n Matei - Caso você mate alguém, deve clicar nesse botão, ele irá marcar sua quantidade de mortes, podendo o levar a sua vitória. \n \n Lanterna - A lanterna serve para você se desfarçar entre os jogadores comuns. Lembre-se, você só pode usar ela uma vez. \n \n Fui descoberto - Caso uma das reuniões aponte para você, o seu jogo acabou. Você deve clicar o botão e a vitória será dos jogadores comuns.</string>
     <string name="regras6">O assassino pode, e deve, se misturar entre o jogadores e fingir ser um deles. Nas reuniões ele deve mentir e tentar desviar da mira de ser o acusado. \n \n Seu celular é o objeto principal do jogo, ele pode denunciar se você é o assassino. Então não deixe os outros olharem para sua tela.</string>
     <string name="iniciarjogo">INICIAR JOGO</string>
     <string name="corpos">0 corpos encontrados</string>
@@ -97,4 +97,6 @@
     <string name="local">ACESSAR A LOCALIZAÇÃO</string>
     <string name="desenv">DESENVOLVEDORES</string>
     <string name="desenvdesc">Este aplicativo foi desenvolvido pelos alunos Luan Hidemi e Mateus Coripio do 2 DESENVOLVIMENTO DE SISTEMAS ETIM, da escola ETEC Prof. Basilides de Godoy, para o trabalho da professora Aline Firmino Brito.</string>
+    <string name="txtagite">Agite o celular para\nligar a lanterna!</string>
+    <string name="minmax">(o mínimo de jogadores são 5 e o máximo 15)</string>
 </resources>
