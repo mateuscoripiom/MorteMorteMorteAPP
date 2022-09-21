@@ -99,4 +99,6 @@
     <string name="desenvdesc">Este aplicativo foi desenvolvido pelos alunos Luan Hidemi e Mateus Coripio do 2 DESENVOLVIMENTO DE SISTEMAS ETIM, da escola ETEC Prof. Basilides de Godoy, para o trabalho da professora Aline Firmino Brito.</string>
     <string name="txtagite">Agite o celular para\nligar a lanterna!</string>
     <string name="minmax">(o mínimo de jogadores são 5 e o máximo 15)</string>
+    <string name="bat">BATALHA DE ASSASSINOS</string>
+    <string name="batdesc">Este modo vai acontecer se mais de um assassino for sorteado. Importante ressaltar que nenhum assassino vai saber que existe outro, então ele vai achar que é o único. Os assassinos irão batalhar entre si, se fingindo de jogadores, e podem matar uns aos outros. O assassino que restar ganha.</string>
 </resources>
