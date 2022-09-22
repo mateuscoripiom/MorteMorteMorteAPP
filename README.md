@@ -1,6 +1,6 @@
 # MorteMorteMorteAPP
 
-ETEC PROF. Basilides de Godoy
+<strong>ETEC PROF. Basilides de Godoy
 2º DESENVOLVIMENTO DE SISTEMAS ETIM
 Programação de Aplicativos Mobile – Profª. Aline Firmino
 Integrantes: Luan Hidemi e Mateus Coripio
@@ -8,7 +8,7 @@ Integrantes: Luan Hidemi e Mateus Coripio
 Aplicativo do filme Morte, Morte, Morte
 
 No filme, jovens se reúnem em uma mansão para jogar um jogo de detetive-assassino, mas corpos reais começam a aparecer. 
-Assim como nele, decidimos criar o aplicativo com a função de sortear quem seriam os jogadores e quem seriam os assassinos. Além disso, também incluímos informações sobre o filme.
+Assim como nele, decidimos criar o aplicativo com a função de sortear quem seriam os jogadores e quem seriam os assassinos. Além disso, também incluímos informações sobre o filme.</strong>
 
 Quantidade total de Activities: 15<br>
 <a href="https://imgur.com/GQRc7gv"><img src="https://i.imgur.com/GQRc7gv.png" title="source: imgur.com" /></a>
