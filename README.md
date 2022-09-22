@@ -1,8 +1,8 @@
 # MorteMorteMorteAPP
 
-<strong>ETEC PROF. Basilides de Godoy
-2º DESENVOLVIMENTO DE SISTEMAS ETIM
-Programação de Aplicativos Mobile – Profª. Aline Firmino
+<strong>ETEC PROF. Basilides de Godoy<br>
+2º DESENVOLVIMENTO DE SISTEMAS ETIM<br>
+Programação de Aplicativos Mobile – Profª. Aline Firmino<br>
 Integrantes: Luan Hidemi e Mateus Coripio
 
 Aplicativo do filme Morte, Morte, Morte
