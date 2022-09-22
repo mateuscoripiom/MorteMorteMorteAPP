@@ -559,7 +559,7 @@
             android:elevation="1dp"
             android:fontFamily="@font/poppins_bold"
             android:text="@string/equipe"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:cornerRadius="25dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView32" />
