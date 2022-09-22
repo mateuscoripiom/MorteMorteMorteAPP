@@ -14,7 +14,7 @@ Quantidade total de Activities: 15<br>
 <a href="https://imgur.com/GQRc7gv"><img src="https://i.imgur.com/GQRc7gv.png" title="source: imgur.com" /></a>
 
 Uso de arquivos strings.xml. Todos os textos que estão presentes no aplicativo, estão sendo usados a partir do arquivo de strings.<br>
-<a href="https://imgur.com/srXN87M"><img src="https://i.imgur.com/srXN87M.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/srXN87M"><img src="https://i.imgur.com/srXN87M.png" title="source: imgur.com" width=700px/></a>
  
 
 Intents explícitas: Existem diversas intents explícitas na aplicação para a navegação.
@@ -37,7 +37,7 @@ O botão de assistir ao trailer na tela de conhecer mais sobre o filme é uma in
 O botão para mandar um email na tela de personagens é uma intent implícita para enviar um email. O propósito do botão é para dar um palpite de que quem é o assassino no filme, após você ver e analisar os personagens.
 
 - Acessar localização no mapa de coordenada já definida<br>
-<a href="https://imgur.com/QLIBQWO"><img src="https://i.imgur.com/QLIBQWO.jpg" title="source: imgur.com" width=10px /></a><br>
+<a href="https://imgur.com/QLIBQWO"><img src="https://i.imgur.com/QLIBQWO.jpg" title="source: imgur.com" width=250px /></a><br>
 O botão de acessar a localização na tela de créditos é uma intent implícita para visualizar no mapa coordenadas já definidas. 
 
 Sensor: Temos uso do sensor de acelerometro linear na tela de jogadores e na tela de assassino. O propósito dele é agitar o celular linearmente para ligar a lanterna, que faz parte do jogo.
