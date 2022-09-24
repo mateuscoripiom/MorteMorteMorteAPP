@@ -7,6 +7,8 @@ Integrantes: Luan Hidemi e Mateus Coripio
 
 Aplicativo do filme Morte, Morte, Morte
 
+Link para o vídeo de demonstração do app: https://www.youtube.com/watch?v=qrAUEFMuYn0
+
 No filme, jovens se reúnem em uma mansão para jogar um jogo de detetive-assassino, mas corpos reais começam a aparecer. 
 Assim como nele, decidimos criar o aplicativo com a função de sortear quem seriam os jogadores e quem seriam os assassinos. Além disso, também incluímos informações sobre o filme.</strong>
 
