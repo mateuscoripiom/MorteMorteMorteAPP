@@ -101,4 +101,9 @@
     <string name="minmax">(o mínimo de jogadores são 5 e o máximo 15)</string>
     <string name="bat">BATALHA DE ASSASSINOS</string>
     <string name="batdesc">Este modo vai acontecer se mais de um assassino for sorteado. Importante ressaltar que nenhum assassino vai saber que existe outro, então ele vai achar que é o único. Os assassinos irão batalhar entre si, se fingindo de jogadores, e podem matar uns aos outros. O assassino que restar ganha.</string>
+    <string name="login">LOGIN</string>
+    <string name="emaill">EMAIL</string>
+    <string name="senha">SENHA</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="cadastro">Ainda não tem cadastro? Cadastre-se.</string>
 </resources>
