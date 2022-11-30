@@ -61,5 +61,13 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(MenuActivity.this, CreditosActivity.class));
             }
         });
+
+        Button btnpalpite = (Button)findViewById(R.id.btnpalpite);
+        btnpalpite.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MenuActivity.this, PalpiteActivity.class));
+            }
+        });
     }
 }

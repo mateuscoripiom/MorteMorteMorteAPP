@@ -7,6 +7,21 @@
     android:background="#20201e"
     tools:context=".MenuActivity">
 
+    <Button
+        android:id="@+id/btnpalpite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/palpite"
+        android:textColor="#2ACFCA"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
@@ -88,13 +103,12 @@
         android:id="@+id/btncreditos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="190dp"
         android:background="#00FFFFFF"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/btncreditos"
         android:textColor="#58B138"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnpalpite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

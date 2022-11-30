@@ -106,4 +106,17 @@
     <string name="senha">SENHA</string>
     <string name="cadastrar">CADASTRAR</string>
     <string name="cadastro">Ainda não tem cadastro? Cadastre-se.</string>
+    <string name="palpite">PALPITE</string>
+    <string name="palpitedesc">Dê o seu palpite sobre quem é o assassino do filme.</string>
+    <string name="salvar">SALVAR</string>
+    <string name="pdesc2">Após assistir ao filme, clique no botão abaixo para revelar qual foi o seu palpite e veja se acertou ou errou.</string>
+    <string name="revelar">REVELAR</string>
+    <string name="cadastre">CADASTRE-SE</string>
+    <string name="nome">NOME</string>
+    <string name="jacad">Já tem cadastro? Faça login.</string>
+    <string name="usuario">USUÁRIO</string>
+    <string name="confsenha">CONFIRMAR SENHA</string>
+    <string name="deslogar">DESLOGAR</string>
+    <string name="deslogdesc">Para deslogar, confirme seu usuário e senha.</string>
+    <string name="save">SALVAR</string>
 </resources>

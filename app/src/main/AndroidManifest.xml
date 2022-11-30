@@ -5,7 +5,9 @@
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MorteMorteMorte"
         tools:targetApi="31">
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PalpiteActivity"
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />

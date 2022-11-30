@@ -40,6 +40,8 @@ public class InicialActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView);
         TextView textView9 = findViewById(R.id.textView9);
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+        ImageView imageLogin = findViewById(R.id.imageLogin);
+        DatabaseHelper DB = new DatabaseHelper(this);
 
         swtreveal.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -71,6 +73,13 @@ public class InicialActivity extends AppCompatActivity {
                 String query = "Cinemas próximos a mim";
                 intent.putExtra(SearchManager.QUERY, query);
                 startActivity(intent);
+            }
+        });
+
+        imageLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(InicialActivity.this, LoginActivity.class));
             }
         });
 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20201e"
+    tools:context=".PalpiteActivity">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="332dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/pdesc2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsalvar" />
+
+    <Button
+        android:id="@+id/btnsalvar"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#00c8d2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/salvar"
+        android:textSize="20sp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editextpalpite" />
+
+    <Button
+        android:id="@+id/btnrevelar"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#00c8d2"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/revelar"
+        android:textSize="20sp"
+        app:cornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/palpitedesc"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/palpite"
+        android:textColor="#00c8d2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmenuinicio8"
+        android:layout_width="62dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#00FFFFFF"
+        app:cornerRadius="100dp"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editextpalpite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewpalpite"
+        android:layout_width="250dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnrevelar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
