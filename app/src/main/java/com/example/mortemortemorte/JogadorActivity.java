@@ -22,11 +22,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -35,7 +39,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class JogadorActivity extends AppCompatActivity {
+public class JogadorActivity extends AppCompatActivity{
 
     private Button btnlanternajogador;
     private Button btnecontrei;
@@ -50,7 +54,6 @@ public class JogadorActivity extends AppCompatActivity {
     boolean lanterna = true;
     int Corpo;
     int i;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -200,4 +203,5 @@ public class JogadorActivity extends AppCompatActivity {
         mSensorManager.unregisterListener(mSensorListener);
         super.onPause();
     }
+
 }

@@ -119,4 +119,10 @@
     <string name="deslogar">DESLOGAR</string>
     <string name="deslogdesc">Para deslogar, confirme seu usuário e senha.</string>
     <string name="save">SALVAR</string>
+    <string name="palpitej">PALPITE DO JOGO</string>
+    <string name="ler">LER</string>
+    <string name="palpitejdesc">Escreva aqui quem você acha que é o assasino da rodada e clique no botão da esquerda para salvar. Após você morrer, ou o jogo acabar, clique no botão da direita para ver se acertou.</string>
+    <string name="critica">CRÍTICA</string>
+    <string name="cridesc">Deixe aqui salvo a sua crítica após assistir o filme. O que achou dele? Qual sua nota? Não gostou, por quê?</string>
+    <string name="lecritica">Leitura da crítica:</string>
 </resources>
