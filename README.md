@@ -3,17 +3,22 @@
 <strong>ETEC PROF. Basilides de Godoy<br>
 2º DESENVOLVIMENTO DE SISTEMAS ETIM<br>
 Programação de Aplicativos Mobile – Profª. Aline Firmino<br>
-Integrantes: Luan Hidemi e Mateus Coripio
+Integrantes: Leonardo Mazzuco e Mateus Coripio
 
 Aplicativo do filme Morte, Morte, Morte
 
-Link para o vídeo de demonstração do app: https://www.youtube.com/watch?v=qrAUEFMuYn0
+Link para o vídeo de demonstração do app (armazenamento): <br>
+Link para o vídeo de demonstração do app (somente app): https://www.youtube.com/watch?v=qrAUEFMuYn0
 
 No filme, jovens se reúnem em uma mansão para jogar um jogo de detetive-assassino, mas corpos reais começam a aparecer. 
 Assim como nele, decidimos criar o aplicativo com a função de sortear quem seriam os jogadores e quem seriam os assassinos. Além disso, também incluímos informações sobre o filme.</strong>
 
-Quantidade total de Activities: 15<br>
-<a href="https://imgur.com/GQRc7gv"><img src="https://i.imgur.com/GQRc7gv.png" title="source: imgur.com" /></a>
+Quantidade total de Activities: 19 + classe helper para o banco de dados<br>
+<a href="https://imgur.com/AeMAvSh"><img src="https://i.imgur.com/AeMAvSh.png" title="source: imgur.com" /></a>
+
+<h1>Armazenamento</h1>
+
+<h1>APP Geral</h1>
 
 Uso de arquivos strings.xml. Todos os textos que estão presentes no aplicativo, estão sendo usados a partir do arquivo de strings.<br>
 <a href="https://imgur.com/srXN87M"><img src="https://i.imgur.com/srXN87M.png" title="source: imgur.com" width=700px/></a>
