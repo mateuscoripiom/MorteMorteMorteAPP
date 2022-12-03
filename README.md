@@ -33,10 +33,10 @@ Quantidade total de Activities: 19 + classe helper para o banco de dados<br>
 
 <br>
 - Banco de Dados Local ( SQLite): usado no login. Você pode se cadastrar e logar no aplicativo através do pequeno ícone de usuário na tela inicial. Lá, o usuário pode se logar direto, ou então se cadastrar caso não tenha login.<br>
-<a href="https://imgur.com/9Iq04ij"><img src="https://i.imgur.com/9Iq04ij.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/Pz2LgXh"><img src="https://i.imgur.com/Pz2LgXh.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/WHYUyb6"><img src="https://i.imgur.com/WHYUyb6.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/1ftAQ2Y"><img src="https://i.imgur.com/1ftAQ2Y.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/9Iq04ij"><img src="https://i.imgur.com/9Iq04ij.jpg" title="source: imgur.com" width=25%/></a>
+<a href="https://imgur.com/Pz2LgXh"><img src="https://i.imgur.com/Pz2LgXh.jpg" title="source: imgur.com" width=25%/></a>
+<a href="https://imgur.com/WHYUyb6"><img src="https://i.imgur.com/WHYUyb6.jpg" title="source: imgur.com" width=25%/></a>
+<a href="https://imgur.com/1ftAQ2Y"><img src="https://i.imgur.com/1ftAQ2Y.jpg" title="source: imgur.com" width=25%/></a>
 
 
 <h1>APP Geral</h1>
