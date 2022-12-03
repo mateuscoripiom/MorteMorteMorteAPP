@@ -18,6 +18,27 @@ Quantidade total de Activities: 19 + classe helper para o banco de dados<br>
 
 <h1>Armazenamento</h1>
 
+- Saved Instance e Armazenamento Externo: ambos foram usados na tela de crítica. Nesta tela, o usuário pode escrever sua pequena crítica sobre o filme de salvar ela no app. O texto digitado no EditText é salvo para um arquivo Critica.txt e depois você pode lê-lo quando quiser.<br>
+<a href="https://imgur.com/Fwof2NR"><img src="https://i.imgur.com/Fwof2NR.jpg" title="source: imgur.com" width=25%/></a>
+<a href="https://imgur.com/9wgf19w"><img src="https://i.imgur.com/9wgf19w.jpg" title="source: imgur.com" width=25% /></a>
+<br>
+- Shared Preferences: usado na tela de palpite. A tela serve para você usar depois de ver a tela de personagens. Antes de você ver o filme, vai na tela de personagens e escolha alguém para julgar como assassino do filme e vá para a tela de palpite e escreva o nome. Após você ver o filme, você volta na tela e revele qual havia sido o seu palpite.<br>
+<a href="https://imgur.com/fOVo4rA"><img src="https://i.imgur.com/fOVo4rA.jpg" title="source: imgur.com" width=25%/></a>
+<a href="https://imgur.com/OYs4gV2"><img src="https://i.imgur.com/OYs4gV2.jpg" title="source: imgur.com" width=25% /></a>
+<br>
+- Armazenamento Interno: usado na tela de conheça o filme. Há uma pequena galeria de imagens onde você pode baixar as imagens para o seu celular. As imagens ficam salvas em uma pasta chamada Pictures do armazenamento do dispositivo. Você também pode visualizá-la na galeria.<br>
+<a href="https://imgur.com/j23uZt4"><img src="https://i.imgur.com/j23uZt4.jpg" title="source: imgur.com" width=25%/></a>
+<a href="https://imgur.com/IWlD2Cf"><img src="https://i.imgur.com/IWlD2Cf.jpg" title="source: imgur.com" width=25% /></a>
+<a href="https://imgur.com/HeNrCza"><img src="https://i.imgur.com/HeNrCza.jpg" title="source: imgur.com" width=25% /></a>
+
+<br>
+- Banco de Dados Local ( SQLite): usado no login. Você pode se cadastrar e logar no aplicativo através do pequeno ícone de usuário na tela inicial. Lá, o usuário pode se logar direto, ou então se cadastrar caso não tenha login.<br>
+<a href="https://imgur.com/9Iq04ij"><img src="https://i.imgur.com/9Iq04ij.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/Pz2LgXh"><img src="https://i.imgur.com/Pz2LgXh.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/WHYUyb6"><img src="https://i.imgur.com/WHYUyb6.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/1ftAQ2Y"><img src="https://i.imgur.com/1ftAQ2Y.jpg" title="source: imgur.com" /></a>
+
+
 <h1>APP Geral</h1>
 
 Uso de arquivos strings.xml. Todos os textos que estão presentes no aplicativo, estão sendo usados a partir do arquivo de strings.<br>
