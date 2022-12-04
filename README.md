@@ -7,7 +7,7 @@ Integrantes: Leonardo Mazzuco e Mateus Coripio
 
 Aplicativo do filme Morte, Morte, Morte
 
-Link para o vídeo de demonstração do app (armazenamento): <br>
+Link para o vídeo de demonstração do app (armazenamento): https://youtu.be/-gaOabaxtE4<br>
 Link para o vídeo de demonstração do app (somente app): https://www.youtube.com/watch?v=qrAUEFMuYn0
 
 No filme, jovens se reúnem em uma mansão para jogar um jogo de detetive-assassino, mas corpos reais começam a aparecer. 
