@@ -27,9 +27,7 @@ Quantidade total de Activities: 19 + classe helper para o banco de dados<br>
 <a href="https://imgur.com/OYs4gV2"><img src="https://i.imgur.com/OYs4gV2.jpg" title="source: imgur.com" width=25% /></a>
 <br>
 - Armazenamento Externo: usado na tela de conheça o filme. Há uma pequena galeria de imagens onde você pode baixar as imagens para o seu celular. As imagens ficam salvas em uma pasta chamada Pictures do armazenamento do dispositivo. Você também pode visualizá-la na galeria.<br>
-Para este, também foi implementado no AndroidManifest.xml as permissões para uasr o armazenamento externo, sendo elas:<br>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> (para escrever)<br
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> (para ler)<br>
+Para este, também foi implementado no AndroidManifest.xml as permissões para uasr o armazenamento externo.<br>
 <a href="https://imgur.com/j23uZt4"><img src="https://i.imgur.com/j23uZt4.jpg" title="source: imgur.com" width=25%/></a>
 <a href="https://imgur.com/IWlD2Cf"><img src="https://i.imgur.com/IWlD2Cf.jpg" title="source: imgur.com" width=25% /></a>
 <a href="https://imgur.com/HeNrCza"><img src="https://i.imgur.com/HeNrCza.jpg" title="source: imgur.com" width=25% /></a>
