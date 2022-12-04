@@ -18,7 +18,7 @@ Quantidade total de Activities: 19 + classe helper para o banco de dados<br>
 
 <h1>Armazenamento</h1>
 
-- Saved Instance e Armazenamento Externo: ambos foram usados na tela de crítica. Nesta tela, o usuário pode escrever sua pequena crítica sobre o filme de salvar ela no app. O texto digitado no EditText é salvo para um arquivo Critica.txt e depois você pode lê-lo quando quiser.<br>
+- Saved Instance e Armazenamento Interno: ambos foram usados na tela de crítica. Nesta tela, o usuário pode escrever sua pequena crítica sobre o filme de salvar ela no app. O texto digitado no EditText é salvo para um arquivo Critica.txt e depois você pode lê-lo quando quiser.<br>
 <a href="https://imgur.com/Fwof2NR"><img src="https://i.imgur.com/Fwof2NR.jpg" title="source: imgur.com" width=25%/></a>
 <a href="https://imgur.com/9wgf19w"><img src="https://i.imgur.com/9wgf19w.jpg" title="source: imgur.com" width=25% /></a>
 <br>
@@ -26,7 +26,7 @@ Quantidade total de Activities: 19 + classe helper para o banco de dados<br>
 <a href="https://imgur.com/fOVo4rA"><img src="https://i.imgur.com/fOVo4rA.jpg" title="source: imgur.com" width=25%/></a>
 <a href="https://imgur.com/OYs4gV2"><img src="https://i.imgur.com/OYs4gV2.jpg" title="source: imgur.com" width=25% /></a>
 <br>
-- Armazenamento Interno: usado na tela de conheça o filme. Há uma pequena galeria de imagens onde você pode baixar as imagens para o seu celular. As imagens ficam salvas em uma pasta chamada Pictures do armazenamento do dispositivo. Você também pode visualizá-la na galeria.<br>
+- Armazenamento Externo: usado na tela de conheça o filme. Há uma pequena galeria de imagens onde você pode baixar as imagens para o seu celular. As imagens ficam salvas em uma pasta chamada Pictures do armazenamento do dispositivo. Você também pode visualizá-la na galeria.<br>
 <a href="https://imgur.com/j23uZt4"><img src="https://i.imgur.com/j23uZt4.jpg" title="source: imgur.com" width=25%/></a>
 <a href="https://imgur.com/IWlD2Cf"><img src="https://i.imgur.com/IWlD2Cf.jpg" title="source: imgur.com" width=25% /></a>
 <a href="https://imgur.com/HeNrCza"><img src="https://i.imgur.com/HeNrCza.jpg" title="source: imgur.com" width=25% /></a>
